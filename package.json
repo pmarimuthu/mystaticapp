@@ -1,0 +1,23 @@
+{
+  "name": "mystaticapp",
+  "version": "1.0.0",
+  "description": "sample static website using VuePress; hosted on Amazon S3",
+  "main": "index.js",
+  "scripts": {
+    "devlopmyapp": "vuepress dev src",
+    "buildmyapp": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmarimuthu/mystaticapp.git"
+  },
+  "author": "pmarimuthu@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmarimuthu/mystaticapp/issues"
+  },
+  "homepage": "https://github.com/pmarimuthu/mystaticapp#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
